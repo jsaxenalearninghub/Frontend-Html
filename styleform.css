@@ -1,0 +1,10 @@
+h1 {
+  color: brown;
+}
+
+body {
+  background-image: url("backgroundformimage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styleform.css" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <hr />
+
+    <form action="result.html" method="GET">
+      <label for="name">Name :</label>
+      <input
+        id="name"
+        type="text"
+        name="ename"
+        value=""
+        placeholder="Enter Name"
+        required
+      /><br />
+
+      Password :
+      <input
+        type="password"
+        name="epass"
+        value=""
+        placeholder="Enter Password"
+        required
+      /><br />
+
+      <label for="email">Email :</label>
+      <input
+        id="email"
+        type="email"
+        name="eemail"
+        value=""
+        placeholder="Enter Email"
+        required
+      /><br />
+
+      Married :
+      <label for="y">Yes</label>
+      <input id="y" type="radio" name="emarried" value="yes" />
+      <label for="n">No</label>
+      <input id="n" type="radio" name="emarried" value="no" /><br />
+
+      Gender :
+      <label for="m">Male</label>
+      <input id="m" type="radio" name="egender" value="male" checked />
+      <label for="f">Female</label>
+      <input id="f" type="radio" name="egender" value="female" />
+      <label for="o">Other</label>
+      <input id="o" type="radio" name="egender" value="other" /><br />
+
+      Language :
+      <label for="hin">Hindi</label>
+      <input id="hin" type="checkbox" name="lang" value="hindi" />
+      <label for="eng">English</label>
+      <input id="eng" type="checkbox" name="lang" value="english" checked />
+      <label for="ger">Germany</label>
+      <input id="ger" type="checkbox" name="lang" value="Germany" />
+      <label for="fre">French</label>
+      <input id="fre" type="checkbox" name="lang" value="french" /><br />
+
+      <label for="cou">Country : </label>
+      <select id="cou" name="country">
+        <option value="india" selected>India</option>
+        <option value="usa">USA</option>
+        <option value="gemany">Germany</option>
+        <option value="france">France</option>
+        <option value="russia">Russia</option>
+        <option value="switz">Switzerland</option>
+        <option value="china">China</option></select
+      ><br />
+
+      <label for="feed"> Enter Feedback : </label>
+      <textarea id="feed" name="feedback" rows="8" cols="80"></textarea><br />
+
+      <input type="submit" value="Register" />
+    </form>
+  </body>
+</html>
